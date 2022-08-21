@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>fflib_SObjectDomain</members>
+        <members>fflib_SObjectsTest</members>
+        <members>fflib_SObjectDomainTest</members>
+        <members>fflib_SObjects</members>
+        <members>fflib_IObjects</members>
+        <members>fflib_IDGenerator</members>
+        <members>fflib_Objects</members>
+        <members>fflib_ObjectsTest</members>
+        <members>fflib_ISObjects</members>
+        <members>fflib_ISObjectDomain</members>
+        <members>fflib_IDomain</members>
+
+        <members>TrainingReports</members>
+        <members>TrainingReportTest</members>
+        <members>TrainingReportEmployeeShareRecalcBatch</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>TrainingReportTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+     <members>Training_Report</members>
+     <name>PermissionSet</name>
+    </types>     
+    <types>
+        <members>Training_Report__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Training_Report__c-Training Report Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Training_Report__c</members>
+        <name>CustomObject</name>
+    </types>
+    <version>55.0</version>
+</Package>
